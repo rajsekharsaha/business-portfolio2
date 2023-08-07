@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+@media only screen and (max-width: 600px) {
+
+    /* navbar-start */
+    /* navbar-end */
+
+    /* hero-section-start */
+    .subscription1 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .subscription2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .subscription1 input,
+    .subscription2 input {
+        border-radius: 5px 0px 0px 5px;
+        border: none;
+        font-size: 15px;
+        font-family: Poppins, sans-serif;
+        padding: 20px;
+    }
+
+    /* hero-section-end */
+
+    /* services-start */
+    .services ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .services ul li h2{
+        padding: 10px;
+    }
+    .services ul li p{
+        width: 70vw;
+        padding: 15px;
+    }
+
+    /* services-end */
+
+    /* projects-start */
+
+    .container3 ul {
+        display: none;
+    }
+
+    .container3-mobile {
+        display: block;
+    }
+
+    .projects-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-mobile img {
+        width: 100%;
+    }
+
+    .texts2-mobile {
+        text-align: center;
+        padding: 30px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .texts2-mobile h1 {
+        padding: 10px;
+    }
+
+    /* projects-end */
+
+
+
+    /* feedback-start */
+    
+    .feedback-heading{
+        font-size: 12px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    .feedback ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        list-style-type: none;
+        font-family: 'Poppins', sans-serif;
+    }
+    .feedback ul li h2{
+        padding: 10px;
+    }
+    .feedback ul li p{
+        width: 70vw;
+        padding: 15px;
+    }
+
+    /* feedback-end */
+
+    /* footer-start */
+    .container6 ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    .footer{
+        font-size: 12px;
+    }
+    /* footer-end */
+
+}
